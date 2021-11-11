@@ -1,0 +1,19 @@
+{
+    "name": "Godaemon",
+    "version": "0.0.1",
+    "slug": "godaemon",
+    "description": "An alternative to NetDaemon and AppDaemon for Home Assistant.",
+    "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+    "startup": "application",
+    "boot": "auto",
+    "options": {},
+    "schema": {},
+    "map": [
+      "config:rw"
+    ],
+    "image": "mauritsderuiter95/godaemon",
+    "hassio_api": true,
+    "hassio_role": "default",
+    "homeassistant_api": true,
+    "host_network": false
+  }
